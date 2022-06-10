@@ -1,10 +1,13 @@
-const Item = () => {
+const Item = ({ name, img }) => {
     return (
-        <ul>
-            <li>Procesadores</li>
-            <li>Coolers</li>
-            <li>Gabinetes</li>
-        </ul>
+        
+            <li>
+                <img src={img} alt={name}/>
+                <h2>{name}</h2>
+                <button>ver detalle</button>
+            </li>
+            
+        
     )
 }
 

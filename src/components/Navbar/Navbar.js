@@ -2,12 +2,14 @@ import CartWidgets from "../CartWidget/CartWidget"
 
 const NavBar = () => {
     return (
-        <nav style={{ display: 'flex'}}>
-            <h3> Electronica Filo</h3>
+        <nav style={{ display: 'center'}}>
+            <h1>Ecommerce</h1>
             <div>
-                <button>Procesadores</button>
-                <button>Coolers</button>
-                <button>Gabinetes</button>
+                <h1>
+                    <button>Procesadores</button>
+                    <button>Coolers</button>
+                    <button>Gabinetes</button>
+                </h1>
             </div>
                 <CartWidgets />
         </nav>

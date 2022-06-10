@@ -1,17 +1,18 @@
 import React from 'react';
-//import logo from './logo.svg';
+
 import './App.css';
-import NavBar from './components/Navbar/Navbar';
+import NavBar from './components/Navbar/Navbar.js';
 import ItemListContainer from './components/ItemListContainer/ItemListContaine';
 
 function App() {
   return (
     <div className="App">
-    <NavBar />
-    <ItemListContainer greating='Lo que Necesites'/>   
         <p>
-         Electronica Filomeno
+          <h1>Electronica Filomeno</h1>
         </p>
+    <NavBar />
+    <ItemListContainer greating='Lo que Necesites'/>  
+        
        
     </div>
   );
