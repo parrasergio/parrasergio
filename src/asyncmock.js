@@ -1,9 +1,9 @@
 const products = [
-    { 
+    {   
         id: '1', 
         name: 'Samsungs', 
         price: 43000, 
-        category: 'Monitoreres', 
+        category: 'Monitores', 
         img:'../images/monitores.jpg', 
         stock: 25, 
         description:'cantidad 60 hz'
@@ -14,7 +14,7 @@ const products = [
         price: 9000, 
         category: 'gabinetes', 
         img:'../images/gabinete.jpg', 
-        stock: 4, 
+        stock: 5, 
         description:'GABINETE GAMER IQUAL CM-2801 CON VIDRIO TEMPLADO Y FUENTE DE 700W'
     },
     {   
@@ -27,12 +27,26 @@ const products = [
         description:'Sharkoon Shark Blades Rgb Fan 120Mm Black'
     },
 ]
-
-
 export const getProducts = () => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve(products)
-        }, 2000)
+        }, 1000)
+    })
+}
+
+export const getProductsByCategory = (categoryId) => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve(products.filter(prod => prod.category === categoryId))
+        }, 500)
+    })
+}
+
+export const getProductById = (id) => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve(products.find(prod => prod.id === id))
+        }, 500)
     })
 }

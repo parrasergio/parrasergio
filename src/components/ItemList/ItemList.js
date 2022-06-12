@@ -1,12 +1,13 @@
-import Item from "../item/item"
+import './ItemList.css'
+import Item from '../Item/Item'
 
-const ItemList = ({ products })=> {
+const ItemList = ({products}) => {
+
     return(
-        <ul>
-            {products.map(articulo => <Item key={articulo.id} {...articulo}/>)}
-        </ul>
+        <div className='ListGroup'>
+            {products.map(prod => <Item key={prod.id} {...prod}/>)}
+        </div>    
     )
 }
-
 
 export default ItemList

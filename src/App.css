@@ -4,7 +4,7 @@
 
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
+  pointer-events: fill;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -16,8 +16,8 @@
 .App-header {
   background-color: #130fef;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  display: box;
+  flex-direction: center;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);

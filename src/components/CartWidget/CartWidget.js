@@ -4,7 +4,6 @@ const CartWidgets = () => {
         <div style={{ backgroundImage: 'blue'}}>
             <img src='/images/cartw.jpg' alt='cart-widget' />
             0
-            <stretch />
         </div>
            )
 }
