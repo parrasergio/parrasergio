@@ -7,3 +7,4 @@ const ItemDetail = ( id, name, img, price, category, description ) => {
     )
 }
 export default ItemDetail
+///
