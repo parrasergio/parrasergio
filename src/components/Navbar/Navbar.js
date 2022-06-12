@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom'
 
 const NavBar = () => {
     return (
-        <nav style={{ display: 'flex'}}>
+        <nav style={{ display: 'center'}}>
              <Link to='/'>
                 <h1>Productos</h1>
              </Link>
