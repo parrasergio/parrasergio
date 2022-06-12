@@ -3,7 +3,7 @@ Counter {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 300px;
+    width: 200px;
     margin: auto;
 }
 

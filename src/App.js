@@ -13,14 +13,6 @@ function App() {
         <p>
           <h1>Electronica Filomeno</h1>
         </p>
-        {/*<div>
-           <button onclick={() => setPage()}></button>
-           <button onclick={() => setPage('detail')}></button>
-          
-        </div>
-
-          {page === 'list' && <ItemListContainer greeting='Hola Filo' />}
-          {page === 'datail' && <ItemDetailContainer />}*/}
           <BrowserRouter>
             <NavBar/>
             <Routes>
